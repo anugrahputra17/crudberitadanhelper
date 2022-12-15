@@ -1,7 +1,7 @@
 import  Sequelize  from "sequelize";
 
-export const db = new Sequelize('neondb', 'anugrahputra17', 'tJa3wMFXj2zc', {
-  host: 'ep-little-sea-445865.ap-southeast-1.aws.neon.tech',
+export const db = new Sequelize('neondb', 'bct808', 'gWBYcu3d8alA', {
+  host: 'ep-late-glitter-714111.us-east-2.aws.neon.tech',
   dialect: 'postgres',
   logging: false,
   dialectOptions: {
@@ -13,3 +13,4 @@ export const db = new Sequelize('neondb', 'anugrahputra17', 'tJa3wMFXj2zc', {
 })
 
 export default db;
+
